@@ -1,0 +1,8 @@
+[Inputs]
+clk
+[Outputs]
+out
+[BiDir]
+[ATTRIBUTES]
+VeriModel clk625
+
