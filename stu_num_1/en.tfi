@@ -1,0 +1,16 @@
+
+
+
+// Instantiate the module
+en instance_name (
+    .p625(p625), 
+    .num1(num1), 
+    .num2(num2), 
+    .num3(num3), 
+    .num4(num4), 
+    .light(light), 
+    .num(num), 
+    .en(en)
+    );
+
+

@@ -1,0 +1,29 @@
+E:/study/FPGA/stu_num_1/top.v {1 {vlog -work work -stats=none E:/study/FPGA/stu_num_1/top.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} E:/study/FPGA/stu_num_1/clk625.v {1 {vlog -work work -stats=none E:/study/FPGA/stu_num_1/clk625.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module clk625
+
+Top level modules:
+	clk625
+
+} {} {}} E:/study/FPGA/stu_num_1/num.v {1 {vlog -work work -stats=none E:/study/FPGA/stu_num_1/num.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module num
+
+Top level modules:
+	num
+
+} {} {}} E:/study/FPGA/stu_num_1/clk_1s.v {1 {vlog -work work -stats=none E:/study/FPGA/stu_num_1/clk_1s.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module clk_1s
+
+Top level modules:
+	clk_1s
+
+} {} {}}

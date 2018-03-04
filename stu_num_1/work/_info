@@ -1,0 +1,115 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dg:/tools/modelsim/examples
+vclk625
+Z0 !s110 1490970603
+!i10b 1
+!s100 72j:A0YFjY8@hELQP0LUB1
+I6i;zEE=Eh7zO=olg4Sd9<3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dE:/study/FPGA/stu_num_1
+Z3 w1490935659
+8E:/study/FPGA/stu_num_1/clk625.v
+FE:/study/FPGA/stu_num_1/clk625.v
+Z4 L0 21
+Z5 OP;L;10.4a;61
+r1
+!s85 0
+31
+Z6 !s108 1490970603.000000
+!s107 E:/study/FPGA/stu_num_1/clk625.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/study/FPGA/stu_num_1/clk625.v|
+!s101 -O0
+!i113 1
+Z7 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+vclk_1s
+R0
+!i10b 1
+!s100 JlPFOT=V1UhJzk8ZAiPN62
+IZkeCmBV@Ag[C<8JR24Ec13
+R1
+R2
+R3
+8E:/study/FPGA/stu_num_1/clk_1s.v
+FE:/study/FPGA/stu_num_1/clk_1s.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 E:/study/FPGA/stu_num_1/clk_1s.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/study/FPGA/stu_num_1/clk_1s.v|
+!s101 -O0
+!i113 1
+R7
+ven
+R0
+!i10b 1
+!s100 ^6Mda>aYL`:Hl]I9`cUKh1
+ISkd]Y01L3cI3Fln@VYoRn1
+R1
+R2
+w1490960959
+8E:/study/FPGA/stu_num_1/en.v
+FE:/study/FPGA/stu_num_1/en.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 E:/study/FPGA/stu_num_1/en.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/study/FPGA/stu_num_1/en.v|
+!s101 -O0
+!i113 1
+R7
+vnum
+Z8 !s110 1490970604
+!i10b 1
+!s100 =AoDJO47IQhjdI;k]k<@`0
+IjC6i6Xl0jK>NSUDUG;6<L3
+R1
+R2
+w1490961306
+8E:/study/FPGA/stu_num_1/num.v
+FE:/study/FPGA/stu_num_1/num.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 E:/study/FPGA/stu_num_1/num.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/study/FPGA/stu_num_1/num.v|
+!s101 -O0
+!i113 1
+R7
+vtop
+R8
+!i10b 1
+!s100 B[gFo:daYlk4_N5EMK:QW0
+I`MagRzz;HRm_^H[b^HPTg2
+R1
+R2
+w1490962711
+8E:/study/FPGA/stu_num_1/top.v
+FE:/study/FPGA/stu_num_1/top.v
+R4
+R5
+r1
+!s85 0
+31
+!s108 1490970604.000000
+!s107 E:/study/FPGA/stu_num_1/top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/study/FPGA/stu_num_1/top.v|
+!s101 -O0
+!i113 1
+R7

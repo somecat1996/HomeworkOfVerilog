@@ -1,0 +1,12 @@
+[Inputs]
+p_1s
+display
+[Outputs]
+=num1[6:0]=
+=num2[6:0]=
+=num3[6:0]=
+=num4[6:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel num
+
