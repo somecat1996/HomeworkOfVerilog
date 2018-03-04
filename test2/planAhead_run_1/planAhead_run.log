@@ -1,0 +1,134 @@
+
+****** PlanAhead v14.2 (64-bit)
+  **** Build 194362 by xbuild on Fri Jul 20 18:52:11 MDT 2012
+    ** Copyright 1986-1999, 2001-2012 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from G:/coding/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [G:/coding/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [G:/coding/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source E:/study/FPGA/test2/pa.fromNetlist.tcl
+# create_project -name test2 -dir "E:/study/FPGA/test2/planAhead_run_1" -part xc3s100ecp132-5
+Parsing template File [G:/coding/Xilinx/14.2/ISE_DS/ISE/data/projnav/templates/verilog.xml].
+Finished parsing template File [G:/coding/Xilinx/14.2/ISE_DS/ISE/data/projnav/templates/verilog.xml].
+Parsing template File [G:/coding/Xilinx/14.2/ISE_DS/ISE/data/projnav/templates/vhdl.xml].
+Finished parsing template File [G:/coding/Xilinx/14.2/ISE_DS/ISE/data/projnav/templates/vhdl.xml].
+Parsing template File [G:/coding/Xilinx/14.2/ISE_DS/ISE/data/projnav/templates/ucf.xml].
+Finished parsing template File [G:/coding/Xilinx/14.2/ISE_DS/ISE/data/projnav/templates/ucf.xml].
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "E:/study/FPGA/test2/test2.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {E:/study/FPGA/test2} }
+# set_param project.pinAheadLayout  yes
+# set_property target_constrs_file "test2.ucf" [current_fileset -constrset]
+Adding file 'E:/study/FPGA/test2/test2.ucf' to fileset 'constrs_1'
+# add_files [list {test2.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc3s100ecp132-5
+Release 14.2 - ngc2edif P.28xd (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+Reading design test2.ngc ...
+WARNING:NetListWriters:298 - No output is written to test2.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file test2.edif ...
+ngc2edif: Total memory usage is 86288 kilobytes
+
+Parsing EDIF File [./planAhead_run_1/test2.data/cache/test2_ngc_7d7b0e44.edif]
+Finished Parsing EDIF File [./planAhead_run_1/test2.data/cache/test2_ngc_7d7b0e44.edif]
+INFO: [Designutils 20-910] Reading macro library G:/coding/Xilinx/14.2/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
+Parsing EDIF File [G:/coding/Xilinx/14.2/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Finished Parsing EDIF File [G:/coding/Xilinx/14.2/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Loading clock regions from G:/coding/Xilinx/14.2/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/ClockRegion.xml
+Loading clock buffers from G:/coding/Xilinx/14.2/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/ClockBuffers.xml
+Loading package from G:/coding/Xilinx/14.2/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/cp132/Package.xml
+Loading io standards from G:/coding/Xilinx/14.2/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from G:/coding/Xilinx/14.2/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/cp132/SSORules.xml
+Loading list of drcs for the architecture : G:/coding/Xilinx/14.2/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/drc.xml
+INFO: [Timing 38-77] Reading timing library G:/coding/Xilinx/14.2/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-5.lib.
+INFO: [Timing 38-34] Done reading timing library G:/coding/Xilinx/14.2/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-5.lib.
+Parsing UCF File [E:/study/FPGA/test2/test2.ucf]
+Finished Parsing UCF File [E:/study/FPGA/test2/test2.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: b2a7993b
+link_design: Time (s): elapsed = 00:00:13 . Memory (MB): peak = 523.672 ; gain = 117.063
+startgroup
+set_property package_pin N3 [get_ports {a[3]}]
+endgroup
+startgroup
+set_property package_pin E2 [get_ports {a[2]}]
+endgroup
+startgroup
+set_property package_pin F3 [get_ports {a[1]}]
+endgroup
+startgroup
+set_property package_pin G3 [get_ports {a[0]}]
+endgroup
+startgroup
+set_property package_pin L3 [get_ports {b[1]}]
+endgroup
+startgroup
+set_property package_pin P11 [get_ports {b[0]}]
+endgroup
+startgroup
+set_property package_pin L14 [get_ports {c[0]}]
+endgroup
+startgroup
+set_property package_pin H12 [get_ports {c[1]}]
+endgroup
+startgroup
+set_property package_pin N14 [get_ports {c[2]}]
+endgroup
+startgroup
+set_property package_pin P12 [get_ports {c[3]}]
+endgroup
+startgroup
+set_property package_pin L13 [get_ports {c[4]}]
+endgroup
+startgroup
+set_property package_pin M12 [get_ports {c[5]}]
+endgroup
+startgroup
+set_property package_pin N13 [get_ports {c[6]}]
+endgroup
+startgroup
+set_property package_pin N11 [get_ports {c[3]}]
+endgroup
+startgroup
+set_property package_pin P12 [get_ports {c[4]}]
+endgroup
+startgroup
+set_property package_pin L13 [get_ports {c[5]}]
+endgroup
+startgroup
+set_property package_pin M12 [get_ports {c[6]}]
+endgroup
+startgroup
+set_property package_pin A7 [get_ports {d[0]}]
+endgroup
+startgroup
+set_property package_pin M4 [get_ports {d[1]}]
+endgroup
+startgroup
+set_property package_pin F12 [get_ports {d[0]}]
+endgroup
+startgroup
+set_property package_pin J12 [get_ports {d[1]}]
+endgroup
+startgroup
+set_property package_pin M13 [get_ports {d[2]}]
+endgroup
+startgroup
+set_property package_pin K14 [get_ports {d[3]}]
+endgroup
+save_design
+exit
+INFO: [Common 17-206] Exiting PlanAhead...
+INFO: [Common 17-83] Releasing license: PlanAhead
