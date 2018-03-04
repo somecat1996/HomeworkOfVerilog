@@ -1,0 +1,23 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "pause" LOC = N3;
+NET "en[0]" LOC = F12;
+NET "en[1]" LOC = J12;
+NET "en[2]" LOC = M13;
+NET "en[3]" LOC = K14;
+NET "light[0]" LOC = P11;
+NET "light[1]" LOC = L3;
+NET "num[0]" LOC = L14;
+NET "num[1]" LOC = H12;
+NET "num[2]" LOC = N14;
+NET "num[3]" LOC = N11;
+NET "num[4]" LOC = P12;
+NET "num[5]" LOC = L13;
+NET "num[6]" LOC = M12;
+NET "num[7]" LOC = N13;
+NET "clk" LOC = B8;
+NET "settlement" LOC = M4;
+NET "sum" LOC = A7;
+NET "start" LOC = G1;
+NET "flag" LOC = P4;
