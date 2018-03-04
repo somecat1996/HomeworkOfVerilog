@@ -1,0 +1,11 @@
+NET "clk" LOC=B8;
+NET "clr" LOC=A7;
+NET "en" LOC=N3;
+NET "ld[0]" LOC=M5;
+NET "ld[1]" LOC=M11;
+NET "ld[2]" LOC=P7;
+NET "ld[3]" LOC=P6;
+NET "ld[4]" LOC=N5;
+NET "ld[5]" LOC=N4;
+NET "ld[6]" LOC=P4;
+NET "ld[7]" LOC=G1;
