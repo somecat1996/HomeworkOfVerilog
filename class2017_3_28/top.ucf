@@ -1,0 +1,9 @@
+
+
+NET "m" LOC = N3;
+NET "n" LOC = E2;
+NET "u" LOC = F3;
+NET "v" LOC = G3;
+NET "x" LOC = G1;
+NET "y" LOC = P4;
+NET "z" LOC = N4;

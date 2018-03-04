@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# PlanAhead v14.2 (64-bit)
+# Build 194362 by xbuild on Fri Jul 20 18:52:11 MDT 2012
+# Start of session at: Tue Mar 28 13:30:40 2017
+# Process ID: 1816
+# Log file: E:/study/FPGA/class2017_3_28/planAhead_run_1/planAhead.log
+# Journal file: E:/study/FPGA/class2017_3_28/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source E:/study/FPGA/class2017_3_28/pa.fromNetlist.tcl
+startgroup
+set_property package_pin G3 [get_ports v]
+endgroup
+startgroup
+set_property package_pin E2 [get_ports n]
+endgroup
+startgroup
+set_property package_pin F3 [get_ports u]
+endgroup
+startgroup
+set_property package_pin G3 [get_ports v]
+endgroup
+startgroup
+set_property package_pin E2 [get_ports n]
+endgroup
+startgroup
+set_property package_pin F3 [get_ports u]
+endgroup
+save_design
